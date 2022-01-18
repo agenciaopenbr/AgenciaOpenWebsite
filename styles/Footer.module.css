@@ -1,0 +1,30 @@
+.Footer{
+  width: 100vw;
+}
+.Section{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin:0 auto;
+  height:110px;
+}
+.Section span{
+  font-size: 14px;
+}
+
+.infosContainerFooter{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+}
+
+.infosFooter p{
+  font-weight: bold;
+  font-size:14px;
+  text-align: center;
+}
+
+.infosFooter span{
+  font-size:14px;
+}
