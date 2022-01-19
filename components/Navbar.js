@@ -19,7 +19,7 @@ export default function Navbar(){
           </li>
 
           <li className={styles.li}>
-            <Link href="/">
+            <Link href="/projetos">
               <a>Projetos</a>
             </Link>
           </li>

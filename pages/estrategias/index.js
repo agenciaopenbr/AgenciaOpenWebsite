@@ -1,18 +1,17 @@
 import Link from "next/link"
-import styles from "../../styles/Estrategias.module.css"
 
 export default function Estrategias() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <h2>Estratégias</h2>
 
-      <section className={styles.card}>
-        <div className={styles.cardNames}>
+      <section className="card">
+        <div className="cardNames">
           <span>Brand</span>
           <p>Design de Marcas</p>
         </div>
 
-        <div className={styles.cardInfos}>
+        <div className="cardInfos">
           <p>Criar marcas que expressem seu negócio e seus valores é o que mais amamos fazer.</p>
 
           <p>
@@ -25,13 +24,13 @@ export default function Estrategias() {
         </div>
       </section>
 
-      <section className={styles.card}>
-        <div className={styles.cardNames}>
+      <section className="card">
+        <div className="cardNames">
           <span>Mídias</span>
           <p>Sociais</p>
         </div>
 
-        <div className={styles.cardInfos}> 
+        <div className="cardInfos"> 
           <p>Para os médicos e profissionais da saúde, oferecemos planos de mídias sociais focados no fortalecimento da imagem pessoal, que acontecem com um bom planejamento de conteúdo, redação estratégica, design para posts com inovação visual, cronograma de publicações e gestão de tráfego pago, com foco na humanização do conteúdo.</p>
             <Link href="/Home">
               <a>
@@ -41,13 +40,13 @@ export default function Estrategias() {
         </div>
       </section>
 
-      <section className={styles.card}>
-        <div className={styles.cardNames}>
+      <section className="card">
+        <div className="cardNames">
           <span>Sites</span>
           <p>Web designer</p>
         </div>
 
-        <div className={styles.cardInfos}>
+        <div className="cardInfos">
           <p>Criação de sites com uma proposta clean e responsiva, facilitando o encontro das principais informações e necessidades do usuário. Somos especialistas em web designer com foco no desempenho de one pages impactantes.</p>
           <p>Ter um site é essencial para quem deseja ser notado como autoridade em seu nicho.   </p>
             <Link href="/Home">
@@ -58,13 +57,13 @@ export default function Estrategias() {
         </div>
       </section>
 
-      <section className={styles.card}>
-        <div className={styles.cardNames}>
+      <section className="card">
+        <div className="cardNames">
           <span>Foto</span>
           <p>Profissionalismo em cada click</p>
         </div>
 
-        <div className={styles.cardInfos}>
+        <div className="cardInfos">
           <p>Você reconhece o poder de fotos profissionais para fortalecer sua imagem? Uma carreira sólida se importa com a percepção de valor que você entrega a todos que estão à sua volta.</p>
           <p>Um bom planejamento de marketing passa pela tradução da qualidade e profissionalismo em cliques únicos.</p>
             <Link href="/Home">
@@ -75,13 +74,13 @@ export default function Estrategias() {
         </div>
       </section>
 
-      <section className={styles.card}>
-        <div className={styles.cardNames}>
+      <section className="card">
+        <div className="cardNames">
           <span>Vídeo</span>
           <p>Produção audivisual</p>
         </div>
 
-        <div className={styles.cardInfos}>
+        <div className="cardInfos">
           <p>Vídeos publicitários com alta qualidade traduzem sentimentos e realizações. Com eles, a imagem real de seus objetivos é passada com fidelidade.</p>
           <p>Roteiro, produção, edição e entrega com total compromisso para campanhas digitais.</p>
             <Link href="/Home">
