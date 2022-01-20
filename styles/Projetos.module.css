@@ -50,3 +50,88 @@
   color: #fff;
   font-size: 11px;
 }
+
+.projectsVisual{
+  width: 750px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textIntersectionAssets{
+  font-weight: bold;
+  font-size:25px;
+  align-self: start;
+  margin-bottom: 2rem;
+}
+
+.projectsVisual div{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.doctorsContainer{
+  max-width:1300px;
+  margin: 3rem auto;
+}
+
+.backgroundAssets{
+  background-color: #fff;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.textIntersectionAssetsDoctors{
+  font-weight: bold;
+  font-size:25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridAssets{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 900px;
+  align-items: center;
+  justify-items: center;
+  margin-bottom:2rem;
+}
+
+.fourAssets{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.backgroundAssets p{
+  font-size: 15px;
+  color: #767674;
+  margin-bottom: 3rem;
+}
+.containerButtonsWebsites{
+  max-width:40vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 2rem;
+}
+
+.containerButtonsWebsites button{
+  width: 222px;
+  height:38px;
+  background-color:#0050ff;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  border-radius:2em;
+}
