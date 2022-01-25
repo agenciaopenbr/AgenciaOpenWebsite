@@ -29,7 +29,7 @@ a {
   display:grid;
   grid-template-columns: 1fr 1fr;
   width: 725px;
-  height:388px;
+  height:400px;
   margin: 0 auto;
   margin-bottom: 5rem;
   background-color: #fff;
@@ -113,4 +113,127 @@ a {
   max-width:26vw;
   margin: 0 auto;
   margin-bottom: 3rem;
+}
+.Navbar{
+  margin-right: 100px;
+  margin-top: 0px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+}
+
+.ul{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  right: 55px;
+  padding-left: 0;
+}
+
+.li{
+  background-color: #0050ff;
+  color: #fff;
+  border-radius: 2em;
+  height:40px;
+  width: 100%;
+  padding: 0 20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden{
+  display: none;
+  visibility: hidden;
+}
+
+.li{
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.contacts{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width:70vw;
+  margin: 0 auto;
+  margin-bottom:3rem;
+}
+
+.contacts h2{
+  font-size:28px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom:3rem;
+}
+
+.form-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  width: 400px;
+  height:350px;
+  background-color: #0050ff;
+}
+
+.place-text{
+  width: 85%;
+  background-color: #0050ff;
+  height: 40px;
+  margin: 5px 0;
+  border:2px solid #fff;
+}
+
+textarea{
+  height:80px !important;
+}
+
+.place-text::placeholder{
+  padding: 5px 10px;
+  font-size: 16px;
+  color:#fff;
+  border: none;
+  font-family: 'Poppins',sans-serif;
+}
+
+.submit{
+  background-color: #fff;
+  color: #0050ff;
+  width: 85%;
+  border: none;
+  height: 35px;
+  margin:10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Poppins',sans-serif;
+}
+
+.container-midias{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-midias div{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.container-midias h3, .container-midias p{
+  margin: 0px;
 }
