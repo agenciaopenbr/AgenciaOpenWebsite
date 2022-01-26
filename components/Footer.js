@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import styles from "../styles/Footer.module.css";
 
@@ -21,8 +22,16 @@ export default function Footer() {
           <div className={styles.infosFooter}>
             <p>Siga-nos.</p>
             <div className={styles.iconsContainer}>
-              <Image src="/assets/face.webp" alt="Facebook" width={20} height={20}></Image>
-              <Image src="/assets/insta.webp" alt="Instagram" width={20} height={20}></Image>
+              <Link href="https://www.facebook.com/agenciaopenbr">
+                <a>
+                  <Image src="/assets/face.webp" alt="Facebook" width={20} height={20}></Image>
+                </a>
+              </Link>
+              <Link href="https://www.instagram.com/agenciaopenbr/">
+                <a>
+                  <Image src="/assets/insta.webp" alt="Instagram" width={20} height={20}></Image>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

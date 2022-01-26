@@ -1,14 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import Icons from "../../components/icons";
-
 import styles from "../../styles/Projetos.module.css";
 
 export default function Projetos() {
   return (
     <div className="container">
-      <Icons />
-
       <h2>Projetos</h2>
 
       <section className="projects-estatistics">
@@ -39,13 +35,13 @@ export default function Projetos() {
 
           <div className={styles.buttonsContainer}>
 
-            <Link href="/Home">
+            <Link href="http://www.drapatriciacanelas.com/">
               <a>
                 <button>Site Dra Patrícia Canelas</button>
               </a>
             </Link>
 
-            <Link href="/Home">
+            <Link href="https://www.instagram.com/drapatriciacanelas.urologista">
               <a>
                 <button>Instagram Dra Patrícia Canelas</button>
               </a>
@@ -72,13 +68,13 @@ export default function Projetos() {
 
           <div className={styles.buttonsContainer}>
 
-            <Link href="/Home">
+            <Link href="https://udioftalmo.com">
               <a>
                 <button>Site UDI Oftalmo</button>
               </a>
             </Link>
 
-            <Link href="/Home">
+            <Link href="https://www.instagram.com/udioftalmo/">
               <a>
                 <button>Instagram UDI Oftalmo</button>
               </a>
@@ -99,13 +95,13 @@ export default function Projetos() {
 
           <div className={styles.buttonsContainer}>
 
-            <Link href="/Home">
+            <Link href="https://drarnaldoferreira.com/">
               <a>
                 <button>Site Dr. Arnaldo Ferreira</button>
               </a>
             </Link>
 
-            <Link href="/Home">
+            <Link href="https://www.instagram.com/dr.arnaldoferreira/">
               <a>
                 <button>Instagram Dr. Arnaldo Ferreira</button>
               </a>
@@ -171,53 +167,53 @@ export default function Projetos() {
       </section>
 
       <div className={styles.containerButtonsWebsites}>
-        <Link href="/Home">
+        <Link href="https://drarnaldoferreira.com/">
           <a>
             <button>Dr. Arnaldo Ferreira</button>
           </a>
         </Link>
 
-        <Link href="/Home">
+        <Link href="http://www.drapatriciacanelas.com/">
           <a>
             <button>Dra. Patrícia Canelas</button>
           </a>
         </Link>
 
-        <Link href="/Home">
+        <Link href="https://www.dravivianechaves.com.br/">
           <a>
             <button>Dra. Viviane Chaves</button>
           </a>
         </Link>
 
-        <Link href="/Home">
+        <Link href="https://www.medicalsaudeslz.com">
           <a>
             <button>Medical Saude</button>
           </a>
         </Link>
 
-        <Link href="/Home">
+        <Link href="https://www.drmarcelocarvalho.com.br">
           <a>
             <button>Dr. Marcelo Carvalho</button>
           </a>
         </Link>
-        <Link href="/Home">
+        <Link href="https://www.drahonorinaanne.com">
           <a>
             <button>Dra. Honorina Anne</button>
           </a>
         </Link>
 
-        <Link href="/Home">
+        <Link href="https://www.nutrilaislima.com">
           <a>
             <button>Nutri Laís Lima</button>
           </a>
         </Link>
 
-        <Link href="/Home">
+        <Link href="https://www.dorecontrole.com">
           <a>
             <button>Clínica Dor e Controle</button>
           </a>
         </Link>
-        <Link href="/Home">
+        <Link href="https://www.udioftalmo.com">
           <a>
             <button>UDI Oftalmo</button>
           </a>

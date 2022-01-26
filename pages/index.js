@@ -18,7 +18,7 @@ export default function Home() {
 
         <div className={styles.contentHome}>
           <div className={styles.imgShadow}>
-          <Image alt="img" src={"/assets/Marketing Médico.png"} width={375} height={524} className={styles.img}></Image>
+          <Image alt="img" src={"/assets/mktmedico.png"} width={375} height={524} className={styles.img}></Image>
           </div>
 
           <div className={styles.content}>
@@ -26,12 +26,12 @@ export default function Home() {
             <span>construimos marcas de valor e ajudamos médicos a se destacarem no digital.</span>
 
             <div className={styles.buttonsContainer}>
-              <Link href="/">
+              <Link href="/estrategias">
                 <button className={styles.buttonBlue}>
                   <a>Estratégias</a>
                 </button>
               </Link>
-              <Link href="/">
+              <Link href="/projetos">
                 <button className={styles.buttonWhite}>
                   <a>Projetos</a>
                 </button>

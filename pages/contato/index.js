@@ -1,12 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import Icons from "../../components/icons";
 
 export default function Contato() {
   return (
     <div className="contacts">
-      <Icons />
-
       <h2>Vamos conversar?</h2>
 
       <div className="form-container">
@@ -20,7 +17,7 @@ export default function Contato() {
 
         <div className="container-midias">
           <div>
-            <Link href="/Home">
+            <Link href="https://www.instagram.com/agenciaopenbr">
               <a>
                 <Image alt="img" src="/assets/instagram.webp" width="40px" height="40px" objectFit="cover"></Image>
               </a>
@@ -35,7 +32,7 @@ export default function Contato() {
           </div>
 
           <div>
-            <Link href="/Home">
+            <Link href="https://api.whatsapp.com/send?phone=5598987164967">
               <a>
                 <Image alt="img" src="/assets/wpp.webp" width="45px" height="45px" objectFit="cover"></Image>
               </a>
@@ -48,7 +45,7 @@ export default function Contato() {
           </div>
 
           <div>
-            <Link href="/Home">
+            <Link href="https://mailto:open.solucoes@outlook.com">
               <a>
                 <Image alt="img" src="/assets/gmail.webp" width="45px" height="30px" objectFit="cover"></Image>
               </a>
