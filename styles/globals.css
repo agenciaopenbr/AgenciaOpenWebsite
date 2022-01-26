@@ -256,10 +256,10 @@ textarea{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 100px;
+    height: 100vh;
     left: 0px;
     right: 0px;
-    bottom: 0;
+    bottom: 0px;
     padding-left: 0;
     background-color: #fff;
     z-index: 9999;
