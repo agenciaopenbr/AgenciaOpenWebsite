@@ -10,7 +10,7 @@ export default function Contato() {
       <h2>Vamos conversar?</h2>
 
       <div className="form-container">
-        <form action="https://formsubmit.co/open.solucoes@outlook.com" class="contact-form" method="POST">
+        <form action="https://formsubmit.co/open.solucoes@outlook.com" className="contact-form" method="POST">
           <input type="text" name="name" className="place-text" placeholder="Nome" required />
           <input type="email" name="email" className="place-text" placeholder="Email" required />
           <input type="tel" name="phone" required className="place-text" placeholder="WhatsApp" />
