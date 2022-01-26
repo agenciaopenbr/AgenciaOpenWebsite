@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className={styles.Footer}>
       <section className={styles.Section}>
-        <span>Site desenvolvido<br/>por Agência Open.</span>
+        <span>Site desenvolvido por Agência Open.</span>
         <div className={styles.infosContainerFooter}>
           <div className={styles.infosFooter}>
             <p>WhatsApp.</p>

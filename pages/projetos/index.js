@@ -1,11 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
+import Icons from "../../components/icons";
 
 import styles from "../../styles/Projetos.module.css";
 
 export default function Projetos() {
   return (
     <div className="container">
+      <Icons />
+
       <h2>Projetos</h2>
 
       <section className="projects-estatistics">

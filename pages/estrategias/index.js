@@ -1,8 +1,11 @@
 import Link from "next/link"
+import Icons from "../../components/icons"
 
 export default function Estrategias() {
   return (
     <div className="container">
+      <Icons />
+      
       <h2>Estratégias</h2>
 
       <section className="card">

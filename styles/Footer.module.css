@@ -28,3 +28,39 @@
 .infosFooter span{
   font-size:14px;
 }
+
+@media (max-width:980px){
+  .Section{
+   display:grid;
+   grid-template-rows: 1fr 1fr;
+   gap:2rem;
+   align-items: center;
+   justify-items: center;
+    width: 100%;
+    margin:0 auto;
+    height:110px;
+  }
+}
+
+@media (max-width:600px){
+  .infosContainerFooter{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .iconsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Section{
+    display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction:column-reverse;
+     width: 100%;
+     margin:1rem auto;
+     height:100%;
+   }
+}

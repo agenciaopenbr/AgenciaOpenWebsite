@@ -32,3 +32,28 @@
   flex-direction: row;
   margin-left: 100px;
 }
+
+@media (max-width:980px){
+  .insights{
+    display:none;
+    visibility:hidden;
+  }
+}
+
+@media (max-width:600px){
+  .containerTitle h1{
+    font-size: 22px;
+  }
+  .containerTitle{
+    margin-left: 40px;
+  }
+}
+
+@media (max-width:420px){
+  .containerTitle h1{
+    font-size: 18px;
+  }
+  .containerTitle{
+    margin-left: 20px;
+  }
+}

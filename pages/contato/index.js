@@ -1,9 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import Icons from "../../components/icons";
 
 export default function Contato() {
   return (
     <div className="contacts">
+      <Icons />
+
       <h2>Vamos conversar?</h2>
 
       <div className="form-container">

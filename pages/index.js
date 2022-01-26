@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Icons from '../components/icons'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,18 +14,7 @@ export default function Home() {
 
       <div className={styles.backgroundHome}>
 
-        <div className={styles.icons}>
-          <Link href="https://www.facebook.com/agenciaopenbr">
-            <a>
-              <Image src="/assets/face.webp" alt="Facebook" width={25} height={25}></Image>
-            </a>
-          </Link>
-          <Link href="https://www.instagram.com/agenciaopenbr/">
-            <a>
-              <Image src="/assets/insta.webp" alt="Instagram" width={25} height={25}></Image>
-            </a>
-          </Link>
-        </div>
+        <Icons/>
 
         <div className={styles.contentHome}>
           <div className={styles.imgShadow}>
@@ -33,7 +23,7 @@ export default function Home() {
 
           <div className={styles.content}>
             <h2>Oi,</h2>
-            <span>construimos marcas de valor e ajudamos médicos a se destacarem <br />no digital.</span>
+            <span>construimos marcas de valor e ajudamos médicos a se destacarem no digital.</span>
 
             <div className={styles.buttonsContainer}>
               <Link href="/">

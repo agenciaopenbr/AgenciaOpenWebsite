@@ -9,6 +9,10 @@ export default function Navbar(){
     setActive(!active);
   };
 
+  const clickOnButtonRoute = () => {
+    setActive(false);
+  }
+
   return(
     <div className="Navbar">
       <Image src="/assets/menu.png" alt="menu" 
@@ -19,24 +23,24 @@ export default function Navbar(){
 
       <nav>
         <ul className={active ? 'ul' : 'hidden'}>
-        <li className="li">
+        <li className="li" onClick={clickOnButtonRoute}>
             <Link href="/">
               <a>Início</a>
             </Link>
           </li>
-          <li className="li">
+          <li className="li" onClick={clickOnButtonRoute}>
             <Link href="/estrategias">
               <a>Estratégias</a>
             </Link>
           </li>
 
-          <li className="li">
+          <li className="li" onClick={clickOnButtonRoute}>
             <Link href="/projetos">
               <a>Projetos</a>
             </Link>
           </li>
 
-          <li className="li">
+          <li className="li" onClick={clickOnButtonRoute}>
             <Link href="/contato">
               <a>Contato</a>
             </Link>
