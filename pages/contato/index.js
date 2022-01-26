@@ -11,18 +11,18 @@ export default function Contato() {
 
       <div className="form-container">
         <form action="https://formsubmit.co/open.solucoes@outlook.com" class="contact-form" method="POST">
-          <input type="text" name="name" class="place-text" placeholder="Nome" required />
-          <input type="email" name="email" class="place-text" placeholder="Email" required />
-          <input type="tel" name="phone" required class="place-text" placeholder="WhatsApp" />
-          <textarea name="message" placeholder="Qual sua dúvida?" class="place-text"></textarea>
-          <input type="submit" value="Enviar" class="submit" />
+          <input type="text" name="name" className="place-text" placeholder="Nome" required />
+          <input type="email" name="email" className="place-text" placeholder="Email" required />
+          <input type="tel" name="phone" required className="place-text" placeholder="WhatsApp" />
+          <textarea name="message" placeholder="Qual sua dúvida?" className="place-text"></textarea>
+          <input type="submit" value="Enviar" className="submit" />
         </form>
 
         <div className="container-midias">
           <div>
             <Link href="/Home">
               <a>
-                <Image src="/assets/instagram.webp" width="40px" height="40px" objectFit="cover"></Image>
+                <Image alt="img" src="/assets/instagram.webp" width="40px" height="40px" objectFit="cover"></Image>
               </a>
             </Link>
 
@@ -37,7 +37,7 @@ export default function Contato() {
           <div>
             <Link href="/Home">
               <a>
-                <Image src="/assets/wpp.webp" width="45px" height="45px" objectFit="cover"></Image>
+                <Image alt="img" src="/assets/wpp.webp" width="45px" height="45px" objectFit="cover"></Image>
               </a>
             </Link>
 
@@ -50,7 +50,7 @@ export default function Contato() {
           <div>
             <Link href="/Home">
               <a>
-                <Image src="/assets/gmail.webp" width="45px" height="30px" objectFit="cover"></Image>
+                <Image alt="img" src="/assets/gmail.webp" width="45px" height="30px" objectFit="cover"></Image>
               </a>
             </Link>
 

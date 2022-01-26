@@ -18,7 +18,7 @@ export default function Home() {
 
         <div className={styles.contentHome}>
           <div className={styles.imgShadow}>
-          <Image src={"/assets/Marketing Médico.png"} width={375} height={524} className={styles.img}></Image>
+          <Image alt="img" src={"/assets/Marketing Médico.png"} width={375} height={524} className={styles.img}></Image>
           </div>
 
           <div className={styles.content}>

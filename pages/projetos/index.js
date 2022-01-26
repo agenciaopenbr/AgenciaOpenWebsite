@@ -54,7 +54,7 @@ export default function Projetos() {
         </div>
 
         <div className="caseImage">
-          <Image src="/assets/dra Patricia canelas.png" width={404} height={484} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/dra Patricia canelas.png" width={404} height={484} objectFit="cover"></Image>
         </div>
       </section>
 
@@ -87,7 +87,7 @@ export default function Projetos() {
         </div>
 
         <div className="caseImage">
-          <Image src="/assets/udi oftalmo.jpg" width={404} height={484} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/udi oftalmo.jpg" width={404} height={484} objectFit="cover"></Image>
         </div>
       </section>
 
@@ -114,7 +114,7 @@ export default function Projetos() {
         </div>
 
         <div className="caseImage">
-          <Image src="/assets/dr Arnaldo ferreira.jpg" width={404} height={484} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/dr Arnaldo ferreira.jpg" width={404} height={484} objectFit="cover"></Image>
         </div>
       </section>
 
@@ -122,18 +122,18 @@ export default function Projetos() {
         <span className={styles.textIntersectionAssets}>Projetos visuais que encantam!</span>
 
         <div>
-          <Image src="/assets/p1.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p2.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p3.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p4.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p5.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p6.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p7.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p8.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p9.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p10.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p11.png" width={247} height={246} objectFit="cover"></Image>
-          <Image src="/assets/p12.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p1.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p2.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p3.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p4.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p5.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p6.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p7.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p8.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p9.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p10.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p11.png" width={247} height={246} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/p12.png" width={247} height={246} objectFit="cover"></Image>
         </div>
       </section>
 
@@ -143,25 +143,25 @@ export default function Projetos() {
 
           <div className={styles.gridAssets}>
             <div>
-              <Image src="/assets/Dra Cassandra.png" width={373} height={494} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/Dra Cassandra.png" width={373} height={494} objectFit="cover"></Image>
             </div>
 
             <div className={styles.fourAssets}>
-              <Image src="/assets/Dra Ana Gregória.png" width={185} height={244} objectFit="cover"></Image>
-              <Image src="/assets/Dr Arnaldo Ferreira.png" width={185} height={244} objectFit="cover"></Image>
-              <Image src="/assets/Dra Honorina Anne.png" width={185} height={244} objectFit="cover"></Image>
-              <Image src="/assets/Dr Elvis Landy.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/Dra Ana Gregória.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/Dr Arnaldo Ferreira.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/Dra Honorina Anne.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/Dr Elvis Landy.png" width={185} height={244} objectFit="cover"></Image>
             </div>
 
             <div className={styles.fourAssets}>
-              <Image src="/assets/Dra Caroline Dalto.png" width={185} height={244} objectFit="cover"></Image>
-              <Image src="/assets/Endo+.png" width={185} height={244} objectFit="cover"></Image>
-              <Image src="/assets/T O Carlene Mendes.png" width={185} height={244} objectFit="cover"></Image>
-              <Image src="/assets/Dr Maurício Lima.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/Dra Caroline Dalto.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/Endo+.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/T O Carlene Mendes.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/Dr Maurício Lima.png" width={185} height={244} objectFit="cover"></Image>
             </div>
 
             <div>
-              <Image src="/assets/Dra Patrícia Canelas.png" width={373} height={494} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/Dra Patrícia Canelas.png" width={373} height={494} objectFit="cover"></Image>
             </div>
           </div>
 
