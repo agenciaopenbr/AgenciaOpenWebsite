@@ -50,7 +50,7 @@ export default function Projetos() {
         </div>
 
         <div className="caseImage">
-          <Image alt="img" src="/assets/dra Patricia canelas.png" width={404} height={484} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/patricia.png" width={404} height={484} objectFit="cover"></Image>
         </div>
       </section>
 
@@ -83,7 +83,7 @@ export default function Projetos() {
         </div>
 
         <div className="caseImage">
-          <Image alt="img" src="/assets/udi oftalmo.jpg" width={404} height={484} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/udioftalmo.jpg" width={404} height={484} objectFit="cover"></Image>
         </div>
       </section>
 
@@ -110,7 +110,7 @@ export default function Projetos() {
         </div>
 
         <div className="caseImage">
-          <Image alt="img" src="/assets/dr Arnaldo ferreira.jpg" width={404} height={484} objectFit="cover"></Image>
+          <Image alt="img" src="/assets/arnaldo.jpg" width={404} height={484} objectFit="cover"></Image>
         </div>
       </section>
 
@@ -139,25 +139,25 @@ export default function Projetos() {
 
           <div className={styles.gridAssets}>
             <div>
-              <Image alt="img" src="/assets/Dra Cassandra.png" width={373} height={494} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/cassandra.png" width={373} height={494} objectFit="cover"></Image>
             </div>
 
             <div className={styles.fourAssets}>
-              <Image alt="img" src="/assets/Dra Ana Gregória.png" width={185} height={244} objectFit="cover"></Image>
-              <Image alt="img" src="/assets/Dr Arnaldo Ferreira.png" width={185} height={244} objectFit="cover"></Image>
-              <Image alt="img" src="/assets/Dra Honorina Anne.png" width={185} height={244} objectFit="cover"></Image>
-              <Image alt="img" src="/assets/Dr Elvis Landy.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/gregoria.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/arnaldo2.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/honorina.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/elvis.png" width={185} height={244} objectFit="cover"></Image>
             </div>
 
             <div className={styles.fourAssets}>
-              <Image alt="img" src="/assets/Dra Caroline Dalto.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/caroline.png" width={185} height={244} objectFit="cover"></Image>
               <Image alt="img" src="/assets/Endo+.png" width={185} height={244} objectFit="cover"></Image>
-              <Image alt="img" src="/assets/T O Carlene Mendes.png" width={185} height={244} objectFit="cover"></Image>
-              <Image alt="img" src="/assets/Dr Maurício Lima.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/carlene.png" width={185} height={244} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/mauricio.png" width={185} height={244} objectFit="cover"></Image>
             </div>
 
             <div>
-              <Image alt="img" src="/assets/Dra Patrícia Canelas.png" width={373} height={494} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/patriciatwo.png" width={373} height={494} objectFit="cover"></Image>
             </div>
           </div>
 
