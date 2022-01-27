@@ -41,8 +41,8 @@ export default function Navbar(){
           </li>
 
           <li className="li" onClick={clickOnButtonRoute}>
-            <Link href="/contato">
-              <a>Contato</a>
+            <Link href="/propostas">
+              <a>Propostas</a>
             </Link>
           </li>
         </ul>

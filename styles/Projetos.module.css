@@ -98,16 +98,22 @@
 .gridAssets{
   display:grid;
   grid-template-columns: 1fr 1fr;
+  gap:0px;
   max-width: 900px;
   align-items: center;
   justify-items: center;
   margin-bottom:2rem;
 }
+.gridAssets div{
+  margin: 0;
+  padding: 0;
+  max-height:493px;
+}
 
 .fourAssets{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5px;
+  max-height: 493px;
 }
 
 .backgroundAssets p{
@@ -200,5 +206,10 @@
   }
   .doctorsContainer p{
     max-width:80vw;
+  }
+  .gridAssets div{
+    margin: 0;
+    padding: 0;
+    max-height:246.22px;
   }
 }

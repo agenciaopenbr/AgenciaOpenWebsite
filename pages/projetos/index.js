@@ -139,7 +139,7 @@ export default function Projetos() {
 
           <div className={styles.gridAssets}>
             <div>
-              <Image alt="img" src="/assets/cassandra.png" width={373} height={494} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/cassandra.png" width={373} height={493} objectFit="cover"></Image>
             </div>
 
             <div className={styles.fourAssets}>
@@ -157,7 +157,7 @@ export default function Projetos() {
             </div>
 
             <div>
-              <Image alt="img" src="/assets/patriciatwo.png" width={373} height={494} objectFit="cover"></Image>
+              <Image alt="img" src="/assets/patriciatwo.png" width={373} height={493} objectFit="cover"></Image>
             </div>
           </div>
 
