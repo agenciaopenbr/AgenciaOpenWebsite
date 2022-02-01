@@ -212,4 +212,7 @@
     padding: 0;
     max-height:246.22px;
   }
+  .case{
+    width: 100vw;
+  }
 }
