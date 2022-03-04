@@ -31,7 +31,7 @@ export default function Home() {
                   <a className={styles.buttonBlue}>Estratégias</a>
               </Link>
               <Link href="/projetos">
-                  <a className={styles.buttonWhite}>Projetoss</a>
+                  <a className={styles.buttonWhite}>Projetos</a>
               </Link>
             </div>
 
