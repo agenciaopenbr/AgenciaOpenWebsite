@@ -28,14 +28,10 @@ export default function Home() {
 
             <div className={styles.buttonsContainer}>
               <Link href="/estrategias">
-                <button className={styles.buttonBlue}>
-                  <a>Estratégias</a>
-                </button>
+                  <a className={styles.buttonBlue}>Estratégias</a>
               </Link>
               <Link href="/projetos">
-                <button className={styles.buttonWhite}>
-                  <a>Projetos</a>
-                </button>
+                  <a className={styles.buttonWhite}>Projetos</a>
               </Link>
             </div>
 

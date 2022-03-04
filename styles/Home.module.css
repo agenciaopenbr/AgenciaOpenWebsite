@@ -41,10 +41,11 @@
   margin:2rem 0;
 }
 
-.buttonsContainer button{
+.buttonsContainer a{
   border-radius:2em;
   width: 130px;
   height:35px;
+  padding: 5px 10px;
 }
 .buttonBlue{
   background-color:#0050ff;
