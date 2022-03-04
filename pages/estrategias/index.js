@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Wpp from "../../components/Wpp"
 
 export default function Estrategias() {
   return (
@@ -90,6 +91,7 @@ export default function Estrategias() {
             </Link>
         </div>
       </section>
+      <Wpp></Wpp>
     </div>
   )
 }

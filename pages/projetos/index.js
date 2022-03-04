@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Wpp from "../../components/Wpp";
 import styles from "../../styles/Projetos.module.css";
 
 export default function Projetos() {
@@ -220,6 +221,7 @@ export default function Projetos() {
         </Link>
 
       </div>
+      <Wpp></Wpp>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Wpp from "../../components/Wpp";
 
 export default function Propostas() {
   return (
@@ -94,6 +95,7 @@ export default function Propostas() {
           </div>
         </div>
       </div>
+      <Wpp></Wpp>
     </div>
   )
 }
