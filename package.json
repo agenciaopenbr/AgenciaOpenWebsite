@@ -1,5 +1,5 @@
 {
-  "name": "agenciaopen-next",
+  "name": "agenciaopen",
   "private": true,
   "scripts": {
     "dev": "next dev",
