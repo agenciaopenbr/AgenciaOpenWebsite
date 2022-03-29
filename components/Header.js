@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 
 import styles from "../styles/Header.module.css"
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -8,14 +9,22 @@ export default function Header() {
 
       <div className={styles.containerTitle}>
         <div className={styles.blueSquare}></div>
-        <h1>Agência Open</h1>
+        <Link href="/">
+          <a>
+            <h1>Agência Open</h1>
+          </a>
+        </Link>
 
         <div className={styles.insights}>
-          <span>/ Brand</span>
-          <span>Mídias Sociais</span>
-          <span>Sites</span>
-          <span>Foto</span>
-          <span>Vídeo</span>
+          <Link href="/estrategias">
+            <a>
+              <span>/ Brand</span>
+              <span>Mídias Sociais</span>
+              <span>Sites</span>
+              <span>Foto</span>
+              <span>Vídeo</span>
+            </a>
+          </Link>
         </div>
 
       </div>

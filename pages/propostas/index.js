@@ -12,6 +12,7 @@ export default function Propostas() {
           <input type="text" name="Nome" className="place-text" placeholder="Nome" required />
           <input type="email" name="E-mail" className="place-text" placeholder="Email" required />
           <input type="tel" name="Telefone" required className="place-text" placeholder="WhatsApp" />
+          <input type="text" name="Rede Social" required className="place-text" placeholder="Insira sua Rede Social" />
           <textarea name="Qual seu negócio?" placeholder="Qual seu negócio?" className="place-text"></textarea>
           <label htmlFor="segment">Fale sobre o projeto que precisa. Qual segmento, qual seu objetivo com o projeto, qual valor de investimento você dispõe para o projeto, dentre outros detalhes. *</label>
           <textarea id="segment" name="Especificações do projeto" placeholder="Especificações do projeto"></textarea>
@@ -52,7 +53,7 @@ export default function Propostas() {
           <input type="submit" value="Enviar" className="submit" />
         </form>
 
-        <div className="container-midias">
+        {/* <div className="container-midias">
           <div>
             <Link href="https://www.instagram.com/agenciaopenbr">
               <a>
@@ -93,7 +94,7 @@ export default function Propostas() {
               <p>open.solucoes@outlook.com</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Wpp></Wpp>
     </div>

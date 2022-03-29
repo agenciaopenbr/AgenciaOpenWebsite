@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import Icons from '../components/icons'
 import Wpp from '../components/Wpp'
 import styles from '../styles/Home.module.css'
 
@@ -15,11 +14,22 @@ export default function Home() {
 
       <div className={styles.backgroundHome}>
 
-        <Icons/>
-
         <div className={styles.contentHome}>
           <div className={styles.imgShadow}>
-          <Image alt="img" src={"/assets/mktmedico.png"} width={375} height={524} className={styles.img}></Image>
+            <Image alt="img" src={"/assets/logoOpen.jpeg"} width={375} height={470} className={styles.img}></Image>
+
+            <div className={styles.icons}>
+              <Link href="https://www.facebook.com/agenciaopenbr">
+                <a>
+                  <Image src="/assets/face.webp" alt="Facebook" width={25} height={25}></Image>
+                </a>
+              </Link>
+              <Link href="https://www.instagram.com/agenciaopenbr/">
+                <a>
+                  <Image src="/assets/insta.webp" alt="Instagram" width={25} height={25}></Image>
+                </a>
+              </Link>
+            </div>
           </div>
 
           <div className={styles.content}>
@@ -28,10 +38,10 @@ export default function Home() {
 
             <div className={styles.buttonsContainer}>
               <Link href="/estrategias">
-                  <a className={styles.buttonBlue}>Estratégias</a>
+                <a className={styles.buttonBlue}>Estratégias</a>
               </Link>
               <Link href="/projetos">
-                  <a className={styles.buttonWhite}>Projetos</a>
+                <a className={styles.buttonWhite}>Projetos</a>
               </Link>
             </div>
 
@@ -40,7 +50,7 @@ export default function Home() {
               assertivo de nossos clientes, tornando sua marca memorável.</p>
           </div>
         </div>
-        
+
         <Wpp></Wpp>
       </div>
     </div>

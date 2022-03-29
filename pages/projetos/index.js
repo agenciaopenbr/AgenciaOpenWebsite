@@ -37,13 +37,13 @@ export default function Projetos() {
           <div className={styles.buttonsContainer}>
 
             <Link href="http://www.drapatriciacanelas.com/">
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <button>Site Dra Patrícia Canelas</button>
               </a>
             </Link>
 
             <Link href="https://www.instagram.com/drapatriciacanelas.urologista">
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <button>Instagram Dra Patrícia Canelas</button>
               </a>
             </Link>
@@ -70,13 +70,13 @@ export default function Projetos() {
           <div className={styles.buttonsContainer}>
 
             <Link href="https://udioftalmo.com">
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <button>Site UDI Oftalmo</button>
               </a>
             </Link>
 
             <Link href="https://www.instagram.com/udioftalmo/">
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <button>Instagram UDI Oftalmo</button>
               </a>
             </Link>
@@ -97,13 +97,13 @@ export default function Projetos() {
           <div className={styles.buttonsContainer}>
 
             <Link href="https://drarnaldoferreira.com/">
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <button>Site Dr. Arnaldo Ferreira</button>
               </a>
             </Link>
 
             <Link href="https://www.instagram.com/dr.arnaldoferreira/">
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <button>Instagram Dr. Arnaldo Ferreira</button>
               </a>
             </Link>
@@ -169,53 +169,53 @@ export default function Projetos() {
 
       <div className={styles.containerButtonsWebsites}>
         <Link href="https://drarnaldoferreira.com/">
-          <a>
+          <a target="_blank" rel="noopener noreferrer">
             <button>Dr. Arnaldo Ferreira</button>
           </a>
         </Link>
 
         <Link href="http://www.drapatriciacanelas.com/">
-          <a>
+          <a target="_blank" rel="noopener noreferrer">
             <button>Dra. Patrícia Canelas</button>
           </a>
         </Link>
 
         <Link href="https://www.dravivianechaves.com.br/">
-          <a>
+          <a target="_blank" rel="noopener noreferrer">
             <button>Dra. Viviane Chaves</button>
           </a>
         </Link>
 
         <Link href="https://www.medicalsaudeslz.com">
-          <a>
+          <a target="_blank" rel="noopener noreferrer">
             <button>Medical Saude</button>
           </a>
         </Link>
 
         <Link href="https://www.drmarcelocarvalho.com.br">
-          <a>
+          <a target="_blank" rel="noopener noreferrer">
             <button>Dr. Marcelo Carvalho</button>
           </a>
         </Link>
         <Link href="https://www.drahonorinaanne.com">
-          <a>
+          <a target="_blank" rel="noopener noreferrer">
             <button>Dra. Honorina Anne</button>
           </a>
         </Link>
 
         <Link href="https://www.nutrilaislima.com">
-          <a>
+          <a target="_blank" rel="noopener noreferrer">
             <button>Nutri Laís Lima</button>
           </a>
         </Link>
 
         <Link href="https://www.dorecontrole.com">
-          <a>
+          <a target="_blank" rel="noopener noreferrer">
             <button>Clínica Dor e Controle</button>
           </a>
         </Link>
         <Link href="https://www.udioftalmo.com">
-          <a>
+          <a target="_blank" rel="noopener noreferrer">
             <button>UDI Oftalmo</button>
           </a>
         </Link>

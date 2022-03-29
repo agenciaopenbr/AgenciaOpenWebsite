@@ -22,16 +22,6 @@ a {
   box-sizing: border-box;
 }
 
-.icons{
-  left:260px;
-  position:relative;
-  top:230px;
-  z-index: 999;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .container{
   background-color:#e6dace;
   padding: 2rem 0;
@@ -191,7 +181,9 @@ a {
 
 .form-container{
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
 }
 
 form{
@@ -199,26 +191,69 @@ form{
   align-items: center;
   justify-content: center;
   flex-direction:column;
-  width: 400px;
+  width: 80%;
   height:100%;
   background-color: #0050ff;
   padding: 2rem 0;
 }
 
+.form-tons{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.form-briefing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
+
 .place-text{
-  width: 85%;
+  width: 90%;
   background-color: #0050ff;
   height: 40px;
   margin: 5px 0;
   border:2px solid #fff;
 }
 
+.estilosCores{
+  align-self: start;
+}
+
+.areaBriefing{
+  height:40px !important;
+}
+
+.container-form-briefing{
+  margin: 2rem auto;
+}
+
+.container-form-briefing span{
+  color: #fff;
+  width: 85%;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+}
+
+.submit-briefing{
+  width: 40%!important;
+  margin: 2rem auto !important;
+  border-radius: 2em;
+}
+
 label{
   font-size:16px;
   color: #fff;
-  max-width:85%;
+  width: 90%;
   text-align: justify;
   margin: 1rem auto;
+  align-self: start;
 }
 
 #segment{
@@ -370,15 +405,6 @@ textarea, input{
   form{
     width: 90vw;
   }
-  .icons{
-    left:50px;
-    position:relative;
-    top:250px;
-    z-index: 999;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 @media (max-width: 600px) {
@@ -407,27 +433,5 @@ textarea, input{
   .projects-estatistics {
     grid-template-columns: 1fr;
     margin: 2rem auto;
-  }
-  .icons{
-    left:55%;
-    position:absolute;
-    top:6%;
-    z-index: 999;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 420px) {
-
-  .icons{
-    left:56%;
-    position:absolute;
-    top:50px;
-    z-index: 999;
-    display:flex;
-    align-items: center;
-    justify-content: center;
   }
 }
