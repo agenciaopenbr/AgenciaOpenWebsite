@@ -64,12 +64,12 @@ export default function Briefing() {
 
           <div className="form-briefing">
             <label htmlFor="tipografia">Que estilo de tipografia mais lhe agrada?</label>
-            <textarea required name="Que estilo de tipografia mais lhe agrada?" placeholder="Exemplo : caligráfica , moderna , fontes finas, etc. " className="place-text areaBriefing" id="tipografia"></textarea>
+            <textarea required name="Que estilo de tipografia mais lhe agrada?" placeholder="Exemplo : caligráfica , moderna , fontes finas, etc. " className="place-text areaBriefing tipografia"></textarea>
           </div>
 
           <div className="form-briefing">
             <label htmlFor="tipografia">Coloque aqui todas as informações de contato que deverão estar presentes em seus materiais de identidade visual.</label>
-            <textarea required name="Coloque aqui todas as informações de contato que deverão estar presentes em seus materiais de identidade visual." placeholder="Informe seu número de contato , Whatsapp , e-mail, endereço, etc. " className="place-text areaBriefing" id="tipografia"></textarea>
+            <textarea required name="Coloque aqui todas as informações de contato que deverão estar presentes em seus materiais de identidade visual." placeholder="Informe seu número de contato , Whatsapp , e-mail, endereço, etc. " className="place-text areaBriefing tipografia"></textarea>
           </div>
 
           <input type="submit" value="Enviar" className="submit submit-briefing" />

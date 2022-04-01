@@ -17,6 +17,10 @@
   z-index: 10;
 }
 
+.divLogo{
+  background-color: #F4ECE6;
+}
+
 .content{
   max-width: 100%;
 }

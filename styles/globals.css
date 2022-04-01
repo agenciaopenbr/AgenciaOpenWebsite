@@ -213,6 +213,11 @@ form{
   width: 90%;
 }
 
+.tipografia::-webkit-scrollbar{
+  display:none;
+  visibility: hidden;
+}
+
 .place-text{
   width: 90%;
   background-color: #0050ff;
@@ -226,7 +231,8 @@ form{
 }
 
 .areaBriefing{
-  height:40px !important;
+  resize: none;
+  height: 50px !important;
 }
 
 .container-form-briefing{
