@@ -10,6 +10,7 @@ export default function Home() {
       <Head>
         <title>Início | Agência Open Br</title>
         <meta name="description" content="Construimos marcas de valor e ajudamos médicos a se destacarem no digital. Agência Open Br | Marketing Médico" />
+        <meta name="google-site-verification" content="mKkQRFM-_wXNUw61hsR8ae5b0eA3rn1G3yZgag73Hq8" />
       </Head>
 
       <div className={styles.backgroundHome}>
