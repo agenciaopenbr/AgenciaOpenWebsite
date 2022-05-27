@@ -18,15 +18,10 @@ export default function Home() {
         <div className={styles.contentHome}>
           <div className={styles.imgShadow}>
             <div className={styles.divLogo}>
-            <Image alt="img" src={"/assets/logoOpen.png"} width={375} height={470} className={styles.img}></Image>
+              <Image alt="img" src={"/assets/logoOpen.png"} width={375} height={470} className={styles.img}></Image>
             </div>
 
             <div className={styles.icons}>
-              <Link href="https://www.facebook.com/agenciaopenbr">
-                <a>
-                  <Image src="/assets/face.webp" alt="Facebook" width={25} height={25}></Image>
-                </a>
-              </Link>
               <Link href="https://www.instagram.com/agenciaopenbr/">
                 <a>
                   <Image src="/assets/insta.webp" alt="Instagram" width={25} height={25}></Image>
