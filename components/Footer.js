@@ -22,7 +22,7 @@ export default function Footer() {
           <div className={styles.infosFooter}>
             <p>Siga-nos.</p>
             <div className={styles.iconsContainer}>
-              <Link href="https://www.instagram.com/agenciaopenbr/">
+              <Link href="https://www.instagram.com/_agenciaopen/">
                 <a>
                   <Image src="/assets/insta.webp" alt="Instagram" width={20} height={20}></Image>
                 </a>
